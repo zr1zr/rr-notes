@@ -26,7 +26,7 @@ module.exports = {
       },
     ],
   ],
-
+  
   head,
   themeConfig,
 }
