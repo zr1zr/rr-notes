@@ -1,6 +1,6 @@
 <div align="center">
 <h1>vdoing-template</h1>
-
+  
 [![Auth](https://img.shields.io/badge/Auth-eryajf-ff69b4)](https://github.com/eryajf)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/eryajf/vdoing-template)
 [![GitHub Issues](https://img.shields.io/github/issues/eryajf/vdoing-template.svg)](https://github.com/eryajf/vdoing-template/issues)
@@ -105,8 +105,8 @@ $ git clone git@github.com:lql95/lql-notes.git
           autoCreateIssue: true,
           clientId: "d3ec4ca6363950ca41a2",
           clientSecret: "897465b6393f1d663e6128d2fab6959a0c0333cc",
-          owner: "lql95",
-          repo: "lql-notes",
+          owner: "zr1zr",
+          repo: "rr-notes",
         },
       ],
     ],
