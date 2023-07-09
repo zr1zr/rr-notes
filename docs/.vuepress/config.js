@@ -10,8 +10,24 @@ module.exports = {
   markdown: {
     lineNumbers: true, // 代码行号
   },
-  
+  // vssue 评论插件
+  plugins: [
+    [
+      "vuepress-plugin-vssue-global",
+      {
+        platform: "github",
+        title: "[Comment]<%- frontmatter.title %>",
+        needComments: true,
+        // 其他的 Vssue 配置
+        autoCreateIssue: true,
+        clientId: "00b9e8518fa1da95d11b",
+        clientSecret: "6a445adb823c2c0fee860b57ad93c1769791138b",
+        owner: "zr1zr",
+        repo: "rr-notes",
+      },
+    ],
+  ],
+
   head,
-  plugins,
   themeConfig,
 }
